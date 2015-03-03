@@ -12,3 +12,11 @@
 ;; TIE-12206 Seminar on Functional Programming, TUT
 ;; 3.3.2015
 ;;
+
+;;
+;; - What is core.typed
+;; - Gradual typing
+;; - Type annotations
+;; - Typing hashmaps
+;; - Occurence typing
+;;

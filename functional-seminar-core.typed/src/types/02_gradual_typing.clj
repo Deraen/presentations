@@ -19,3 +19,9 @@
 ; - Gradual Typing: Work is being done so that some type checks would be done
 ;   at runtime
 ;   - To protect interoperability between typed and untyped code
+
+; - Example of a problem:
+(defn ^:no-check wrong [x] (+ "hello" x))
+(comment
+  (wrong 5)
+  (t/cf (t/fn [x :- Number] (+ "hello" 5))))

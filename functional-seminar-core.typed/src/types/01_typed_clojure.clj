@@ -10,6 +10,3 @@
 ;   - +1 year of development paid with crowdfunding
 ;   - Honours thesis “A Practical Optional Type System for Clojure”
 ;   - Currently studying at Indiana University
-
-(t/ann constant t/Int)
-(def constant 42)
