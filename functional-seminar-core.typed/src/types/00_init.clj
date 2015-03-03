@@ -14,7 +14,7 @@
 ;;
 
 ;;
-;; - What is core.typed
+;; - What is typed clojure / core.typed
 ;; - Gradual typing
 ;; - Type annotations
 ;; - Typing hashmaps
